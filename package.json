@@ -2,7 +2,7 @@
   "name": "jorgecg_tech",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JerogZurcBacu.github.io/jorgecg_tech",
+  "homepage": "http://jorgecg.tech",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo jorgecg.tech > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
