@@ -1,22 +1,37 @@
 import React from "react";
+import { menuIt } from './menuit';
 import './navbar.scss';
 
-function NavBar() {
-  return (
-    <div className="contenedor-navbar">
-      <div className="contenedor-logo" />
-      <div className="contenedor-nav">
-        <ul>
-          <li>Inicio</li>
-          <li>Sobre Mi</li>
-          <li>Proyectos</li>
-          <li>Proximamente</li>
-          <li>Redes</li>
-          <li>CV</li>
-        </ul>
+class NavBar extends React.Component {
+  state = { clicked: false }
+
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked })
+  }
+
+  render () {
+    return (
+      <div className="contenedor-navbar">
+        <div className="contenedor-logo" />
+        <div className="menu-icon" onClick={this.handleClick}>
+          <i className={this.state.clicked ? 'fas fa-times' : 'fa-solid fa-burger'}></i>
+        </div>
+        <div className="contenedor-nav">
+          <ul className={this.state.clicked ? 'nav-menu activo' : 'nav-menu'}>
+            {menuIt.map((item, index) => {
+              return (
+                <li key={index}>
+                  <a className={item.cName} href={item.url} id={item.id}>
+                  {item.title}  
+                  </a>  
+                </li>
+              )
+            })}
+          </ul>
+        </div>
       </div>
-    </div>
-  );
+    )
+  }
 }
 
 export default NavBar;
