@@ -1,0 +1,25 @@
+#n1 {
+    animation: BgMove1 50s ease-in-out 0s infinite alternate none;
+}
+#n2 {
+    animation: BgMove2 52s ease-in-out 0s infinite alternate none;
+}
+#n3 {
+    animation: BgMove3 54s ease-in-out 0s infinite alternate none;
+}
+
+@keyframes BgMove1 {
+    0% {background-position: 0 0;}
+    50% {background-position: 0 50%;}
+    100% {background-position: 0 0;}
+}
+@keyframes BgMove2 {
+    0% {background-position: 0 0;}
+    50% {background-position: 100% 0;}
+    100% {background-position: 0 0;}
+}
+@keyframes BgMove3 {
+    0% {background-position: 0 0;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0 0;}
+}

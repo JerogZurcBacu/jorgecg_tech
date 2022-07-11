@@ -1,0 +1,67 @@
+@media screen and (min-width: 1000px) {
+    .contenedor-navbar {
+        .contenedor-logo {
+            width: 150px;
+        }
+        .menu-icon {
+            display: none;
+          }
+    }
+    .contenedor-nav {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .nav-menu {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 80%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(6, auto);
+      grid-gap: 5px;
+      list-style: none;
+      text-align: center;
+      justify-content: flex-end;
+      margin-right: -2rem;
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav-links {
+        padding: 0 2rem;
+        width: calc(100% - 4rem);
+        display: block;
+      }
+      #navlink1,
+      #navlink2,
+      #navlink3,
+      #navlink4,
+      #navlink5,
+      #navlink6 {
+        color: white;
+    }
+      #navlink1:hover {
+        color: $color-azul;
+      }
+      #navlink2:hover {
+        color: $color-amarillo;
+      }
+      #navlink3:hover {
+        color: $color-morado;
+      }
+      #navlink4:hover {
+        color: $color-rosa;
+      }
+      #navlink5:hover {
+        color: $color-azul;
+      }
+      #navlink6:hover {
+        color: $color-amarillo;
+      }
+  }
+}

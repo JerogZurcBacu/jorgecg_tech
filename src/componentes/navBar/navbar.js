@@ -14,7 +14,7 @@ class NavBar extends React.Component {
       <div className="contenedor-navbar">
         <div className="contenedor-logo" />
         <div className="menu-icon" onClick={this.handleClick}>
-          <i className={this.state.clicked ? 'fas fa-times' : 'fa-solid fa-burger'}></i>
+          <i className={this.state.clicked ? 'fas fa-times' : 'fa-solid fa-bars-staggered'}></i>
         </div>
         <div className="contenedor-nav">
           <ul className={this.state.clicked ? 'nav-menu activo' : 'nav-menu'}>

@@ -1,7 +1,10 @@
+@import './background';
+
 $color-azul: #4641D9;
 $color-morado: #48038C;
 $color-rosa: #F213A4;
 $color-amarillo: #F2E205;
+$color-negro: #000000;
 
 * {
     margin: 0;
@@ -10,5 +13,5 @@ $color-amarillo: #F2E205;
 }
 
 body {
-    background-color: black;
+    background-color: $color-negro;
 }

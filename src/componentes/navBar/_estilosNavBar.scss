@@ -1,0 +1,30 @@
+.contenedor-navbar {
+    width: 90%;
+    height: 80px;
+    padding: 0 5%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .contenedor-logo {
+        width: 120px;
+        height: 100%;
+        background-image: url('../../imagenes/jorgecg_logo_blanco.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-150%, 60%);
+        font-size: 1.8rem;
+        color: white;
+        .fa-times {
+            font-size: 2rem;
+            transform: translate(-100%, 0);
+        }
+    }
+}
