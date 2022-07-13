@@ -7,6 +7,7 @@
     top: 80px;
     left: -100%;
     opacity: 1;
+    background-color: black;
     transition: all 0.5s ease;
     #navlink1 {
         color: $color-azul;
@@ -15,7 +16,7 @@
         color: $color-amarillo;
     }
     #navlink3 {
-        color: $color-morado;
+        color: $color-verde;
     }
     #navlink4 {
         color: $color-rosa;
@@ -36,7 +37,6 @@
         display: table;
         }
     &.activo {
-        background-color: transparent;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;

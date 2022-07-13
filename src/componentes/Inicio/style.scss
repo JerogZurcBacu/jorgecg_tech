@@ -1,0 +1,73 @@
+@import '../../App.scss';
+
+.contenedor-inicio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedor-inicio-tx {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin texto-inicio($wid, $fs, $color) {
+    width: $wid;
+    font-size: $fs;
+    color: $color;
+}
+
+#hola{
+    @include texto-inicio(auto, 15vmin, $color-azul);
+}
+#mundo{
+    @include texto-inicio(60%, 15vmin, $color-amarillo);
+}
+#soy{
+    margin-top: 8px;
+    @include texto-inicio(auto, 4vmin, white);
+}
+#jorge{
+    @include texto-inicio(auto, 15vmin, $color-verde);
+}
+#cruz{
+    @include texto-inicio(auto, 15vmin, $color-rosa);
+}
+#dw{
+    @include texto-inicio(80%, 4vmin, white);
+    height: 4.5vmin;
+    text-align: right;
+    overflow:hidden;
+    ul {
+        margin-top: 0;
+        animation:10s linear 0s normal none infinite change;
+        li {
+            margin:0; 
+        }
+    }
+}
+
+@keyframes change {
+    0%   {margin-top:0;}
+    10%   {margin-top:0;}
+    20%  {margin-top:-5.5vmin;}
+    30%  {margin-top:-5.5vmin;}
+    40%  {margin-top:-5.5vmin;}
+    50%  {margin-top:-10.5vmin;}
+    60%  {margin-top:-10.5vmin;}
+    70%  {margin-top:-5.5vmin;}
+    80%  {margin-top:-5.5vmin;}
+    100% {margin-top:0;}
+  }
+
+@media screen and (min-width: 1000px) {
+    #mundo {
+        width: 65%;
+    }
+    #dw {
+        width: 70%;
+    }   
+}
