@@ -2,7 +2,6 @@ $sp-color: 'azul' $color-azul, 'amarillo' $color-amarillo, 'rosa' $color-rosa, '
 
 .contenedor-texto-am {
     width: 100%;
-    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -12,5 +11,11 @@ $sp-color: 'azul' $color-azul, 'amarillo' $color-amarillo, 'rosa' $color-rosa, '
 @each $sp-name, $sp-color in $sp-color {
     .sp-#{$sp-name} {
         color: $sp-color;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .contenedor-texto-am {
+        width: 50%;
     }
 }

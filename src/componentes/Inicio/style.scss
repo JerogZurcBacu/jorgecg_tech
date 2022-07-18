@@ -2,16 +2,17 @@
 
 .contenedor-inicio {
     width: 100%;
-    height: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 .contenedor-inicio-tx {
     width: 100%;
+    margin: auto 0;
     max-width: 800px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 25vh;
 }
 
 @mixin texto-inicio($wid, $fs, $color) {
@@ -65,9 +66,17 @@
 
 @media screen and (min-width: 1000px) {
     #mundo {
-        width: 75%;
+        width: 62%;
     }
     #dw {
-        width: 55%;
+        width: 75%;
+    }   
+}
+@media screen and (min-width: 1360px) {
+    #mundo {
+        width: 70%;
+    }
+    #dw {
+        width: 60%;
     }   
 }

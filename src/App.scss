@@ -15,3 +15,23 @@ $color-negro: #000000;
 body {
     background-color: $color-negro;
 }
+h1 {
+    font-size: 50px;
+    margin: 15px 0;
+}
+p {
+    margin: 15px 0;
+    font-size: 16px;
+} 
+
+@media screen and (min-width: 499px) {
+    p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 70px;
+    }
+}
