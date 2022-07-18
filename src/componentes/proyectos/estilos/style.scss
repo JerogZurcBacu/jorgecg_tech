@@ -1,0 +1,38 @@
+/*
+* Variables
+*/
+
+@import '../../../App';
+
+/*
+* import
+*/
+
+@import './sliderPro';
+
+.contenedor-proyectos {
+    width: 90%;
+    padding: 0 2%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: blue;
+    color: white;
+}
+
+@media screen and (min-width: 499px) {
+    .contenedor-proyectos{
+        h2 {
+            font-size: 26px;
+        }
+    }
+}
+@media screen and (min-width: 1000px) {
+    .contenedor-proyectos{
+        h2 {
+            font-size: 36px;
+        }
+    }
+}
