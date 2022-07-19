@@ -18,12 +18,6 @@ export const menuIt = [
         id: 'navlink3'
     },
     {
-        title: 'Proximamente',
-        url: '#',
-        cName: 'nav-links',
-        id: 'navlink4'
-    },
-    {
         title: 'Redes',
         url: '#',
         cName: 'nav-links',

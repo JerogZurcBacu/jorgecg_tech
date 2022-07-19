@@ -40,7 +40,6 @@
       #navlink1,
       #navlink2,
       #navlink3,
-      #navlink4,
       #navlink5,
       #navlink6 {
         color: white;
@@ -54,14 +53,11 @@
       #navlink3:hover {
         color: $color-verde;
       }
-      #navlink4:hover {
+      #navlink5:hover {
         color: $color-rosa;
       }
-      #navlink5:hover {
-        color: $color-azul;
-      }
       #navlink6:hover {
-        color: $color-amarillo;
+        color: $color-azul;
       }
   }
 }
