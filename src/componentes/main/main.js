@@ -3,7 +3,8 @@ import './style.scss';
 /* import Inicio from "../Inicio/inicio"; */
 /* import AboutMe from "../aboutMe/about"; */
 /* import Proyectos from "../proyectos/proyectos"; */
-import Redes from "../redes/redes";
+/* import Redes from "../redes/redes"; */
+import Cv from "../cv/cv";
 
 class Main extends React.Component {
     render () {
@@ -12,7 +13,8 @@ class Main extends React.Component {
                 {/* <Inicio /> */}
                 {/* <AboutMe /> */}
                 {/* <Proyectos /> */}
-                <Redes />
+                {/* <Redes /> */}
+                <Cv />
             </main>
         )
     };

@@ -1,0 +1,59 @@
+.contenedor-cv {
+    width: 100%;
+    height: 86vh;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    .contenedor-cabecera-cv {
+        width: 100%;
+        height: 10vh;
+        background-color: green;
+    }
+    .contenedor-resumen-cv {
+        width: 100%;
+        height: 26vh;
+        background-color: red;
+    }
+    .contenedor-links-cv {
+        width: 100%;
+        height: 40vh;
+        background-color: pink;
+    }
+    .contenedor-footer-cv {
+        width: 100%;
+        height: 10vh;
+        background-color: gray;
+    }
+}
+@media screen and(min-width:1001px) {
+    .contenedor-cv {
+        width: 100%;
+        height: 86vh;
+        background-color: blue;
+        display: flex;
+        flex-wrap: wrap;
+        .contenedor-cabecera-cv {
+            width: 48%;
+            height: 23vh;
+            background-color: green;
+        }
+        .contenedor-resumen-cv {
+            width: 48%;
+            height: 71vh;
+            background-color: red;
+            margin-left: 4%;
+            margin-top: 2%;
+        }
+        .contenedor-links-cv {
+            margin-top: -32%;
+            width: 48%;
+            height: 53vh;
+            background-color: pink;
+        }
+        .contenedor-footer-cv {
+            width: 100%;
+            height: 10vh;
+            background-color: gray;
+        }
+    }
+}
