@@ -3,7 +3,7 @@ import './estilos/style.scss';
 import Cabecera from "./cabecera";
 import Resumen from "./resumen";
 import Links from "./links";
-
+ 
 class Cv extends React.Component {
     render () {
         return (

@@ -11,7 +11,7 @@ class App extends React.Component {
           <div className='bgstar' id='n2' data-value="6">
             <div className='bgstar' id='n3' data-value="4">
               <NavBar />
-              <Main />
+              <Main /> 
             </div>
           </div>  
         </div>
