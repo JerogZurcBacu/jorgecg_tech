@@ -1,0 +1,104 @@
+#h1-redes {
+    font-size: 30px;
+}
+
+$img_anim-redes: 'github' 30 1 'reverse', 'instagram' 45 3 'reverse', 'twitter' 35 0 'normal', 'linkedin' 50 .5 'normal', 'mail' 40 2 'reverse';
+
+.sub-contenedor-redes {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    align-items: flex-start;
+    & div:nth-child(even) {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .contenedor-circulos-redes {
+        width: 70%;
+        margin: 0 auto;
+        height: 12vh;
+        display: flex;
+        .circulos-redes {
+            width: 70px;
+            height: 100%;
+            background-position: left;
+            background-size: contain;
+            background-repeat: no-repeat;
+            transition: 0.8s;
+        }
+    }
+}
+
+@each $name, $time, $delay, $direction in $img_anim-redes {
+    ##{$name} {
+        background-image: url('../../imagenes/#{$name}_r.png');
+        animation: rotación #{$time}s linear #{$delay}s infinite #{$direction} none;
+    }
+}
+
+@keyframes rotación {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#github:hover,
+#instagram:hover,
+#twitter:hover,
+#linkedin:hover,
+#mail:hover {
+    animation: none;
+    transform: scale(1.1);
+}
+
+#instagram,
+#linkedin {
+    background-position: right;
+}
+
+@media screen and(min-width: 499px) {
+    .sub-contenedor-redes {
+        height: 65vh;
+        .contenedor-circulos-redes {
+            height: 13vh;
+            .circulos-redes {
+                width: 93px;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 1200px) {
+    #h1-redes {
+        font-size: 68px;
+    }
+    .sub-contenedor-redes {
+        height: 50vh;
+        margin-top: 5vh;
+        flex-direction: row;
+        & div:nth-child(even) {
+            display: flex;
+            
+        }
+        .contenedor-circulos-redes {
+            width: 13%;
+            margin: 0 auto;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            .circulos-redes {
+                width: 100%;
+                height: 150px;
+            }
+        }
+    }
+}
+
