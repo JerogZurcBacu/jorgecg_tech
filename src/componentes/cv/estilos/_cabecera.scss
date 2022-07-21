@@ -1,6 +1,57 @@
 .contenedor-cabecera {
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.lista-links-cabecera li{
-    display: inline-block;
+.contenedor-buscador-cabecera {
+    width: 74%;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 12%;
+    background-image: url('../../../imagenes/buscador.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    p {
+        color: white;
+    }
+}
+.lista-links-cabecera {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+@media screen and(min-width: 499px) {
+    .contenedor-buscador-cabecera {
+        height: 45px;
+        p {
+            color: white;
+            font-size: 18px;
+        }
+    }
+    .lista-links-cabecera {
+        font-size: 18px;
+    }
+}
+@media screen and(min-width: 1200px) {
+    .contenedor-cabecera {
+        justify-content: flex-start;
+        height: 50%;
+    }
+    .contenedor-buscador-cabecera {
+        height: 55px;
+        margin-bottom: 5px;
+        p {
+            color: white;
+            font-size: 26px;
+        }
+    }
+    .lista-links-cabecera {
+        font-size: 26px;
+    }
 }

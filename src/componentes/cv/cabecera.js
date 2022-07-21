@@ -5,7 +5,9 @@ class Cabecera extends React.Component {
     render () {
         return (
             <div className="contenedor-cabecera">
-                <img />
+                <div className="contenedor-buscador-cabecera">
+                    <p>¿Quien es Jorge Cruz?</p>
+                </div>
                 <div className="contenedor-link-cabecera">
                     <ul className="lista-links-cabecera">
                         <li><a>Todo</a></li>
