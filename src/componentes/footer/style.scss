@@ -1,0 +1,18 @@
+@mixin dis-flex($direccion, $just) {
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $just;
+}
+.contenedor-footer {
+    @include dis-flex(column, flex-end);
+    .sub-cont-1 {
+        @include dis-flex(row, space-between);
+    }
+    .sub-cont-2 {
+        @include dis-flex(row, center);
+    }
+    p {
+        font-size: 10px;
+        margin: 2px 0;
+    }
+}

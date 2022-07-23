@@ -3,6 +3,7 @@ import './estilos/style.scss';
 import Cabecera from "./cabecera";
 import Resumen from "./resumen";
 import Links from "./links";
+import Footer from "../footer/footer";
  
 class Cv extends React.Component {
     render () {
@@ -18,7 +19,7 @@ class Cv extends React.Component {
                     <Links />
                 </div>
                 <div className="contenedor-footer-cv">
-
+                    <Footer />
                 </div>
             </div>
         )
