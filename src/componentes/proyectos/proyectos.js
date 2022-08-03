@@ -56,7 +56,7 @@ class Proyectos extends React.Component {
                 </div> 
               </div>
               <div className="contenedor-slider-proy">
-                <div className="img-proyectos" id="jorge" />
+                <div className="img-proyectos" id="jorgecg" />
                 <div className="contenedor-texto-proy">
                   <a href="https://jorgecg.tech/" target="_blank" rel="noreferrer"><h2>JorgeCG - Sitio Web</h2></a>
                   <p>Diseño y desarrollo completo del sitio web de JorgeCG. 100% Responsivo.</p>
