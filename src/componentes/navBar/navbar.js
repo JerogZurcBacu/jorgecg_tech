@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 import { menuIt } from './menuit';
 import './estilos/navbar.scss';
 
@@ -21,9 +22,9 @@ class NavBar extends React.Component {
             {menuIt.map((item, index) => {
               return (
                 <li key={index}>
-                  <a className={item.cName} href={item.url} id={item.id}>
+                  <NavLink to={item.url} className={item.cName} id={item.id}>
                   {item.title}  
-                  </a>  
+                  </NavLink>  
                 </li>
               )
             })}

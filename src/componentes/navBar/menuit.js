@@ -1,31 +1,31 @@
 export const menuIt = [
     {
         title: 'Inicio',
-        url: '#',
+        url: '/',
         cName: 'nav-links',
         id: 'navlink1'
     },
     {
         title: 'Sobre Mi',
-        url: '#',
+        url: '/SobreMi',
         cName: 'nav-links',
         id: 'navlink2'
     },
     {
         title: 'Proyectos',
-        url: '#',
+        url: '/Proyectos',
         cName: 'nav-links',
         id: 'navlink3'
     },
     {
         title: 'Redes',
-        url: '#',
+        url: '/Redes',
         cName: 'nav-links',
         id: 'navlink5'
     },
     {
         title: 'CV',
-        url: '#',
+        url: '/Cv',
         cName: 'nav-links',
         id: 'navlink6'
     }
