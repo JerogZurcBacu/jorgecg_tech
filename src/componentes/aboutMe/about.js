@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
             <div className="contenedor-about">
               <TextoAm />
               <HabilidadesAM />  
-              <Continuar />
+              <Continuar hacia="/Proyectos"/> 
             </div>
         )
     };

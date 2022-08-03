@@ -71,7 +71,7 @@ class Proyectos extends React.Component {
                 </div>
               </div>
               <div className="contenedor-slider-proy">
-                <div className="img-proyectos" id="github" />
+                <div className="img-proyectos" id="githubweb" />
                 <div className="contenedor-texto-proy">
                   <a href="http://itgas.com.mx/" target="_blank" rel="noreferrer"><h2>Practicas - Sitio Web</h2></a>
                   <p>Practicas de cursos y diplomados almacenados en GitHub</p>
@@ -82,7 +82,7 @@ class Proyectos extends React.Component {
                 </div>
               </div>
             </Slider>
-            <Continuar />
+            <Continuar hacia="/Redes"/> 
           </div>
         );
       }

@@ -20,7 +20,7 @@ class Inicio extends React.Component {
                         </ul>
                     </div>
                 </div>
-                <Continuar /> 
+                <Continuar hacia="/SobreMi"/> 
             </div>
         )
     }

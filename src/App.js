@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import './App.scss';
 
@@ -17,7 +17,7 @@ class App extends React.Component {
         <div className='bgstar' id='n1' data-value="-2">
           <div className='bgstar' id='n2' data-value="6">
             <div className='bgstar' id='n3' data-value="4">
-              <Router>
+              <HashRouter>
                 <NavBar />
                   <main className="contenedor-principal">
                     <Switch>
@@ -28,7 +28,7 @@ class App extends React.Component {
                       <Route exact path="/" component={Inicio} />
                     </Switch>
                   </main> 
-              </Router>
+              </HashRouter>
             </div>
           </div>  
         </div>

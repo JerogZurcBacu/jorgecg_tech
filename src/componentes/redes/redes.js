@@ -31,7 +31,7 @@ class Redes extends React.Component {
                             <div className="circulos-redes" id="mail"/>
                         </a>                </div>
                 </div>        
-                <Continuar />
+                <Continuar hacia="/Cv"/> 
             </div>
         )
     }
