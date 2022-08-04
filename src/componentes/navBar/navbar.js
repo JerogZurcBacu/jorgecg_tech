@@ -22,7 +22,7 @@ class NavBar extends React.Component {
             {menuIt.map((item, index) => {
               return (
                 <li key={index}>
-                  <NavLink to={item.url} className={item.cName} id={item.id}>
+                  <NavLink to={item.url} className={item.cName} id={item.id} activeClassName="link_activo">
                   {item.title}  
                   </NavLink>  
                 </li>

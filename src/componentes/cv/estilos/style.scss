@@ -38,26 +38,25 @@
 @media screen and(min-width:1001px) {
     .contenedor-cv {
         width: 100%;
-        height: 86vh;
+        height: 88vh;
         display: flex;
         flex-wrap: wrap;
         .contenedor-cabecera-cv {
             width: 48%;
-            height: 12vh;
+            height: 14vh;
         }
         .contenedor-resumen-cv {
             width: 48%;
             height: 60vh;
-            margin-left: 4%;
-            margin-top: 8%;
+            margin: auto 0 auto 4%;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
         }
         .contenedor-links-cv {
-            margin-top: -42%;
+            margin-top: -23%;
             width: 48%;
-            height: 60vh;
+            height: 58vh;
         }
         .contenedor-footer-cv {
             width: 100%;
