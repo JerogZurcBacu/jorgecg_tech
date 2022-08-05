@@ -18,7 +18,8 @@ class Proyectos extends React.Component {
         return (
           <div className="contenedor-proyectos">
             <h1>Proyectos</h1>
-            <Slider {...settings}>
+            <div className="contenedor-slider">
+              <Slider {...settings}>
               <div className="contenedor-slider-proy">
                 <div className="img-proyectos" id="itgas" />
                 <div className="contenedor-texto-proy">
@@ -81,7 +82,8 @@ class Proyectos extends React.Component {
                   </ul>
                 </div>
               </div>
-            </Slider>
+              </Slider>
+            </div>
             <Continuar hacia="/Redes"/> 
           </div>
         );
