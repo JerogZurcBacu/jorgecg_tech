@@ -1,3 +1,4 @@
+
 /*
 * Variables
 */
@@ -18,6 +19,11 @@
     display: flex;
     flex-wrap: wrap;
     color: white;
+    .sub-contenedor-cv {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     .contenedor-cabecera-cv {
         width: 100%;
         height: 10vh;
@@ -41,6 +47,11 @@
         height: 88vh;
         display: flex;
         flex-wrap: wrap;
+        .sub-contenedor-cv {
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+        }
         .contenedor-cabecera-cv {
             width: 48%;
             height: 14vh;
@@ -48,13 +59,12 @@
         .contenedor-resumen-cv {
             width: 48%;
             height: 60vh;
-            margin: auto 0 auto 4%;
+            margin: -8% 0 auto 4%;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
         }
         .contenedor-links-cv {
-            margin-top: -23%;
             width: 48%;
             height: 58vh;
         }

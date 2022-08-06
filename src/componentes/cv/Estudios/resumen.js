@@ -5,7 +5,7 @@ import image2 from '../../imagenes/2.png';
 import image3 from '../../imagenes/3.png';
 import image4 from '../../imagenes/4.jpg';
 
-class Resumen extends React.Component {
+class ResumenTodo extends React.Component {
     render () {
         return (
             <div className="contenedor-resumen">
@@ -26,4 +26,4 @@ class Resumen extends React.Component {
     }
 }
 
-export default Resumen; 
+export default ResumenTodo; 
