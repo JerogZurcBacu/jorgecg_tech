@@ -1,4 +1,14 @@
 .contenedor-links {
+    #h3-personal {
+        font-size: 14px;
+    }
+    #parrafo-personal {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+    #lista-personal li {
+        font-size: 10px;
+    }
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -30,7 +40,7 @@
                 margin-left: 10px;
             }
         }
-        .titulo-link {
+        .titulo-link a {
             font-size: 13px;
             font-weight: bold;
             color: blue;
@@ -44,11 +54,20 @@
 
 @media screen and(min-width: 499px) {
     .contenedor-links {
+        #h3-personal {
+            font-size: 20px;
+        }
+        #parrafo-personal {
+            font-size: 14px;
+        }
+        #lista-personal li {
+            font-size: 12px;
+        }
         .sub-contenedpr-links {
             .icono-titulo-links {
                 font-size: 15px;
             }
-            .titulo-link {
+            .titulo-link a {
                 font-size: 18px;
             }
             p {
@@ -61,6 +80,17 @@
 
 @media screen and(min-width: 1200px) {
     .contenedor-links {
+        #h3-personal {
+            font-size: 20px;
+            margin: 15px 0;
+        }
+        #parrafo-personal {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        #lista-personal li {
+            font-size: 16px;
+        }
         .sub-contenedpr-links {
             hr {
                 margin: 2px 0;
@@ -69,7 +99,7 @@
                 margin-top: 2px;
                 font-size: 23px;
             }
-            .titulo-link {
+            .titulo-link a{
                 font-size: 26px;
             }
             p {

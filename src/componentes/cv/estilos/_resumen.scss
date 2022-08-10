@@ -1,10 +1,13 @@
 .contenedor-resumen {
+    #resumen-movil-personal {
+        display: none;
+    }
     width: 100%;
     height: 100%;
     padding: 0 3px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     overflow: hidden;
     h1 {
         font-size: 25px;
@@ -30,6 +33,7 @@
             margin-right: 2px;
         }
     }
+   
     hr {
         margin: 2px 0 0 -5px;
     }
@@ -48,14 +52,21 @@
         .contenedor-ovalo-resumen-res {
             font-size: 14px;
         }
+        hr {
+            margin-top: 10px;
+        }
         p {
             font-size: 12px;
+            margin-top: 10px;
         }
     }
 }
 
 @media screen and (min-width: 1200px) {
     .contenedor-resumen {
+        #resumen-movil-personal {
+            display: block;
+        }
         height: 100%;
         h1 {
             font-size: 50px;
