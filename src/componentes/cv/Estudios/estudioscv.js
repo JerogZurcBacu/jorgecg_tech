@@ -1,16 +1,16 @@
 import React from "react";
 
-import ResumenTodo from "./resumen"
-import LinksTodo from "./links"
+import ResumenEst from "./resumen"
+import LinksEst from "./links"
 
-export default function TodoCv(props) {
+export default function EstudiosCv() {
     return(
         <div className="sub-contenedor-cv">
                     <div className="contenedor-resumen-cv">
-                        <ResumenTodo />                    
+                        <ResumenEst />                    
                     </div>
                     <div className="contenedor-links-cv">
-                        <LinksTodo />
+                        <LinksEst />
                     </div>
                 </div>       
     );

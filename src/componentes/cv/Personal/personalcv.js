@@ -3,7 +3,7 @@ import React from "react";
 import ResumenPerso from "./resumen"
 import LinksPerso from "./links"
 
-export default function PersonalCv(props) {
+export default function PersonalCv() {
     return(
         <div className="sub-contenedor-cv">
                     <div className="contenedor-resumen-cv">

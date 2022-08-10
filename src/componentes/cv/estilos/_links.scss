@@ -13,6 +13,9 @@
             display: flex;
             justify-content: flex-start;  
             font-size: 11px;
+            i {
+                margin-top: 5px;
+            }
             .fa-person {
                 color: $color-azul;
             }

@@ -24,7 +24,7 @@ class App extends React.Component {
                       <Route exact path="/SobreMi" component={AboutMe} />
                       <Route exact path="/Proyectos" component={Proyectos} />
                       <Route exact path="/Redes" component={Redes} />
-                      <Route exact path="/Cv" component={Cv} />
+                      <Route path="/Cv" component={Cv} />
                       <Route exact path="/" component={Inicio} />
                     </Switch>
                   </main> 

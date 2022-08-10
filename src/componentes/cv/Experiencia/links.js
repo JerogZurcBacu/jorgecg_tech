@@ -1,7 +1,7 @@
 import React from "react";
-import './estilos/style.scss';
+import '../estilos/style.scss';
 
-class LinksTodo extends React.Component {
+class LinksExp extends React.Component {
     render () {
         return (
             <div className="contenedor-links">
@@ -40,4 +40,4 @@ class LinksTodo extends React.Component {
     }
 }
 
-export default LinksTodo; 
+export default LinksExp; 

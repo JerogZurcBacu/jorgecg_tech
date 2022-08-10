@@ -1,11 +1,11 @@
 import React from "react";
-import './estilos/style.scss';
-import image1 from '../../imagenes/1.png';
-import image2 from '../../imagenes/2.png';
-import image3 from '../../imagenes/3.png';
-import image4 from '../../imagenes/4.jpg';
+import '../estilos/style.scss';
+import image1 from '../../../imagenes/1.png';
+import image2 from '../../../imagenes/2.png';
+import image3 from '../../../imagenes/3.png';
+import image4 from '../../../imagenes/4.jpg';
 
-class ResumenTodo extends React.Component {
+class ResumenEst extends React.Component {
     render () {
         return (
             <div className="contenedor-resumen">
@@ -26,4 +26,4 @@ class ResumenTodo extends React.Component {
     }
 }
 
-export default ResumenTodo; 
+export default ResumenEst; 
