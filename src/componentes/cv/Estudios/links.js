@@ -9,30 +9,30 @@ class LinksEst extends React.Component {
                     <hr />
                     <div className="icono-titulo-links">
                         <i class="fa-solid fa-person"></i>
-                        <h3 className="url">https://es.m.personal.com</h3>
+                        <h3 className="url">https://www.freecodecamp.org/JerogZurcG</h3>
                     </div>
-                    <h3 className="titulo-link">Información personal</h3>
-                    <p>Información personal, intereses, gustos, pasatiempos, etc...</p>
+                    <h3 className="titulo-link"><a href="" target="_blank">Free Code Camp</a></h3>
+                    <p>Certificación en diseño web resp. y JavaScript ...</p>
                     <hr />
                 </div>
                 <div className="sub-contenedpr-links">
                     <hr />
                     <div className="icono-titulo-links">
                         <i class="fa-solid fa-graduation-cap"></i>
-                        <h3 className="url">https://www.estudios.com</h3>
+                        <h3 className="url">https://capacitateparaelempleo.org/</h3>
                     </div>
-                    <h3 className="titulo-link">Información Académica</h3>
-                    <p>Información académica, escolar, cursos, diplimados, etc...</p>
+                    <h3 className="titulo-link"><a href="" target="_blank">Dip. Técnico Superior en Big Data</a></h3>
+                    <p>Diplomado en linea con validez oficial</p>
                     <hr />
                 </div>
                 <div className="sub-contenedpr-links">
                     <hr />
                     <div className="icono-titulo-links">
                         <i class="fa-solid fa-briefcase"></i>
-                        <h3 className="url">https://laboral.mx</h3>
+                        <h3 className="url">https://ceneval.edu.mx/</h3>
                     </div>
-                    <h3 className="titulo-link">Información Laboral</h3>
-                    <p>Información de proyectos y empleos anteriores.</p>
+                    <h3 className="titulo-link"><a href="" target="_blank">Bachillerato Completo</a></h3>
+                    <p>Bachillerato concluido con certificado</p>
                     <hr />
                 </div>
             </div>

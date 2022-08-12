@@ -19,7 +19,7 @@ class ResumenEst extends React.Component {
                     <img src={image4} alt="imagen4" />
                 </div>
                 <hr />
-                <p>Mi nombre es Jorge Cruz García, tengo 28 años y soy Técnico Superior en Big Data y diseñador web autodidacta. Pareja y padre de la niña más hermosa del mundo.</p>
+                <p>Bachillerato concluido, Técnico superior en BigData con validez oficial y en constante preparación y en búsqueda de adquirir nuevos conocimientos para ponerlos en practica</p>
                 <hr />
             </div>
         )
