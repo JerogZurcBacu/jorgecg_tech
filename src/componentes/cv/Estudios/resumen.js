@@ -1,9 +1,8 @@
 import React from "react";
 import '../estilos/style.scss';
-import image1 from '../../../imagenes/1.png';
-import image2 from '../../../imagenes/2.png';
-import image3 from '../../../imagenes/3.png';
-import image4 from '../../../imagenes/4.jpg';
+import image5 from '../../../imagenes/5.png';
+import image6 from '../../../imagenes/6.png';
+import image7 from '../../../imagenes/7.png';
 
 class ResumenEst extends React.Component {
     render () {
@@ -13,10 +12,9 @@ class ResumenEst extends React.Component {
                 <div className="contenedor-ovalo-resumen-res">Resumen
                 </div>
                 <div className="contenedor-img-res">
-                    <img src={image1} alt="imagen1" />
-                    <img src={image2} alt="imagen2" />
-                    <img src={image3} alt="imagen3" />
-                    <img src={image4} alt="imagen4" />
+                    <img src={image5} alt="imagen5" />
+                    <img src={image6} alt="imagen6" />
+                    <img src={image7} alt="imagen7" />
                 </div>
                 <hr />
                 <p>Bachillerato concluido, Técnico superior en BigData con validez oficial y en constante preparación y en búsqueda de adquirir nuevos conocimientos para ponerlos en practica</p>
