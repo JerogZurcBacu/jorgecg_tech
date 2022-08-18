@@ -39,7 +39,6 @@
     .contenedor-footer-cv {
         width: 100%;
         height: 6vh;
-        margin-top: 10%;
     }
 }
 @media screen and(min-width:499px) { 
@@ -48,7 +47,7 @@
             min-height: 550px;
         }
         .contenedor-footer-cv {
-            margin-top: 3%;
+            margin-top: 0;
         }
     }
 }
@@ -83,7 +82,6 @@
         .contenedor-footer-cv {
             width: 100%;
             height: 6vh;
-            margin-top: 0;
         }
     }
 }
